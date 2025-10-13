@@ -36,7 +36,7 @@ const AllPost = ({posts}) => {
         </p>
 
         <div className="mt-4 flex items-center justify-between gap-3">
-          <Link href={`/posts/${id ?? ""}`} className="group inline-flex items-center gap-2">
+          <Link href={`/posts/${id}`} className="group inline-flex items-center gap-2">
             <span className="inline-block px-4 py-2 rounded-lg bg-gradient-to-r from-sky-500 to-indigo-500 text-white text-sm font-medium shadow-md transform group-hover:scale-105 transition-transform">
               Read More
             </span>
